@@ -1,0 +1,15 @@
+name: 'World domination'
+description: 'Take over control of the whole World!'
+inputs:
+  who-to-control:
+    description: 'Who to control'
+    required: true
+    default: 'World'
+outputs:
+  time:
+    description: 'The time we take over control'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.who-to-control }}
