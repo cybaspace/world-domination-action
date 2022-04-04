@@ -3,13 +3,13 @@ This action will take over control of each object you giving as argument
 
 ## Inputs
 
-## `who-to-control`
+### `who-to-control`
 
 **Required** The name of object we should control. Default `"World"`.
 
 ## Outputs
 
-## `time`
+### `time`
 The time we took over control.
 
 ## Example usage
